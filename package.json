@@ -1,25 +1,25 @@
 {
-    "name": "MiguelkiNetwork-MCLauncher",
-    "preductname": "Miguelki Network MC Launcher",
-    "version": "3.2.15",
+    "name": "Ilumination-Launcher",
+    "preductname": "Ilumination Launcher",
+    "version": "1.0.0",
     "sub_version": "",
-    "changelog": "Arreglo de bugs y mejoras estéticas.",
-    "description": "Launcher de minecraft para los servidores de Miguelki Network",
+    "changelog": "Esta es la primera versión del launcher.",
+    "description": "Launcher de minecraft para los servidores de Ilumination",
     "main": "src/app.js",
     "author": {
         "name": "Miguelki",
         "email": "admin@miguelkinetwork.fun",
         "url": "https://github.com/miguelkix30"
     },
-    "url": "http://node1.miguelkinetwork.info:25565/",
+    "url": "http://ilumination.miguelkinetwork.info/",
     "store_url": "https://minecraft.miguelkinetwork.info/shop/",
     "azuriom_url": "https://minecraft.miguelkinetwork.info/",
-    "discord_url": "https://dsc.gg/miguelkinetwork",
+    "discord_url": "https://discord.gg/GSvRg7eMKb",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://github.com/miguelkix30/MiguelkiNetworkMCLauncher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://github.com/IluminationDEV/IluminationLauncher/master/src/assets/images/icon.png"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -53,6 +53,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/miguelkix30/MiguelkiNetworkMCLauncher.git"
+        "url": "git+https://github.com/IluminationDEV/IluminationLauncher.git"
     }
 }
