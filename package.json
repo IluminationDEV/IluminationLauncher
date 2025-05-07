@@ -3,7 +3,7 @@
     "preductname": "Ilumination Launcher",
     "version": "1.0.2",
     "sub_version": "",
-    "changelog": "Esta es la primera versión del launcher.",
+    "changelog": "Muchas mejoras y correcciones de errores",
     "description": "Launcher de minecraft para los servidores de Ilumination",
     "main": "src/app.js",
     "author": {
