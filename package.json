@@ -1,9 +1,9 @@
 {
     "name": "Ilumination-Launcher",
     "preductname": "Ilumination Launcher",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "sub_version": "",
-    "changelog": "Muchas mejoras y correcciones de errores",
+    "changelog": "Se ha añadido el panel de skins",
     "description": "Launcher de minecraft para los servidores de Ilumination",
     "main": "src/app.js",
     "author": {
